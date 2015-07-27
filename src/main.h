@@ -33,7 +33,7 @@ static const unsigned int MAX_INV_SZ = 50000;
 static const int64 MIN_TX_FEE = 1.0 * CENT;
 static const int64 MIN_RELAY_TX_FEE = 1.0 * CENT;
 static const int64 MAX_MONEY = 2500000000 * COIN;			
-static const int64 MAX_MINT_PROOF_OF_STAKE = 5 * COIN;	// 5%
+static const int64 MAX_MINT_PROOF_OF_STAKE = 0.05 * COIN;	// 5%
 static const int64 MIN_TXOUT_AMOUNT = MIN_TX_FEE;
 
 static const int POW_CUTOFF_BLOCK = 16200; // final block POW
